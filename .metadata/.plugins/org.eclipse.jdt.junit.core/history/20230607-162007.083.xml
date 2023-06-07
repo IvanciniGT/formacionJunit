@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="SuministradorDeDiccionariosTest" project="pruebas-v5" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="com.curso.SuministradorDeDiccionariosTest" time="0.001" displayname="SuministradorDeDiccionariosTest" uniqueid="[engine:junit-jupiter]/[class:com.curso.SuministradorDeDiccionariosTest]">
-    <testcase name="preguntarDiccionarioExistente" classname="com.curso.SuministradorDeDiccionariosTest" time="0.0" displayname="Preguntar por un diccionario existente al suministrador" uniqueid="[engine:junit-jupiter]/[class:com.curso.SuministradorDeDiccionariosTest]/[method:preguntarDiccionarioExistente()]"/>
-    <testcase name="preguntarDiccionarioInexistente" classname="com.curso.SuministradorDeDiccionariosTest" time="0.0" displayname="Preguntar por un diccionario no existente al suministrador" uniqueid="[engine:junit-jupiter]/[class:com.curso.SuministradorDeDiccionariosTest]/[method:preguntarDiccionarioInexistente()]"/>
-    <testcase name="recuperarDiccionarioExistente" classname="com.curso.SuministradorDeDiccionariosTest" time="0.0" displayname="Recuperar un diccionario existente" uniqueid="[engine:junit-jupiter]/[class:com.curso.SuministradorDeDiccionariosTest]/[method:recuperarDiccionarioExistente()]"/>
-    <testcase name="recuperarDiccionarioInexistente" classname="com.curso.SuministradorDeDiccionariosTest" time="0.0" displayname="Solicitar un diccionario no existente" uniqueid="[engine:junit-jupiter]/[class:com.curso.SuministradorDeDiccionariosTest]/[method:recuperarDiccionarioInexistente()]"/>
-  </testsuite>
-</testrun>
