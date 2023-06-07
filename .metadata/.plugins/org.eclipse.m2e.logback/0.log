@@ -727,3 +727,7 @@
 2023-06-07 16:05:37,876 [Worker-30: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-06-07 16:05:37,877 [Worker-30: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-06-07 16:05:37,881 [Worker-30: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 16:05:37,882 [Worker-30: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-07 16:20:05,171 [Worker-37: Launching SuministradorDeDiccionariosTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 16:20:05,172 [Worker-37: Launching SuministradorDeDiccionariosTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 16:20:05,177 [Worker-37: Launching SuministradorDeDiccionariosTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
