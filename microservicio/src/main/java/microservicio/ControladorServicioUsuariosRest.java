@@ -28,6 +28,6 @@ public class ControladorServicioUsuariosRest {
 	
 	@PostMapping("/usuarios")
 	public ResponseEntity<Usuario> crearUsuario(@RequestBody Usuario usuario){
-		return new ResponseEntity<>(servicioUsuarios.crearUsuario(usuario), HttpStatus.OK);
+		return new ResponseEntity<>(servicioUsuarios.crearUsuario(usuario), HttpStatus.CREATED);
 	}
 }
