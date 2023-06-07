@@ -1,0 +1,14 @@
+package com.curso.pruebasv5;
+
+
+public interface App {
+
+	static int sumar(int numero1, int numero2) {
+		return numero1 + numero2;
+	}
+
+	static int restar(int numero1, int numero2) {
+		return numero1 - numero2;
+	}
+	
+}

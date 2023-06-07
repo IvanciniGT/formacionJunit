@@ -1,0 +1,729 @@
+2023-06-06 14:23:08,308 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-06 15:45:43,357 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.pom
+2023-06-06 15:45:43,465 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.pom
+2023-06-06 15:45:43,522 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/1.4/maven-archetype-bundles-1.4.pom
+2023-06-06 15:45:43,567 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/1.4/maven-archetype-bundles-1.4.pom
+2023-06-06 15:45:43,684 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.jar
+2023-06-06 15:45:43,801 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.4/maven-archetype-quickstart-1.4.jar
+2023-06-06 15:46:46,719 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606 [607])
+2023-06-06 15:46:46,723 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606
+2023-06-06 15:46:46,724 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\aether-connector-okhttp-0.17.8.jar
+2023-06-06 15:46:46,725 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\commons-lang3-3.8.1.jar
+2023-06-06 15:46:46,725 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\guice-4.2.2-no_aop.jar
+2023-06-06 15:46:46,725 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\jansi-2.4.0.jar
+2023-06-06 15:46:46,727 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-artifact-3.8.7.jar
+2023-06-06 15:46:46,727 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-builder-support-3.8.7.jar
+2023-06-06 15:46:46,728 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-compat-3.8.7.jar
+2023-06-06 15:46:46,729 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-core-3.8.7.jar
+2023-06-06 15:46:46,730 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-embedder-3.8.7.jar
+2023-06-06 15:46:46,730 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-3.8.7.jar
+2023-06-06 15:46:46,731 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-builder-3.8.7.jar
+2023-06-06 15:46:46,731 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-plugin-api-3.8.7.jar
+2023-06-06 15:46:46,732 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-repository-metadata-3.8.7.jar
+2023-06-06 15:46:46,732 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-api-1.6.3.jar
+2023-06-06 15:46:46,733 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-06-06 15:46:46,733 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-impl-1.6.3.jar
+2023-06-06 15:46:46,733 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-provider-3.8.7.jar
+2023-06-06 15:46:46,734 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-spi-1.6.3.jar
+2023-06-06 15:46:46,734 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-06-06 15:46:46,735 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-util-1.6.3.jar
+2023-06-06 15:46:46,735 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-3.8.7.jar
+2023-06-06 15:46:46,735 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-builder-3.8.7.jar
+2023-06-06 15:46:46,736 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-shared-utils-3.3.4.jar
+2023-06-06 15:46:46,736 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okhttp-3.14.1.jar
+2023-06-06 15:46:46,737 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okio-1.17.3.jar
+2023-06-06 15:46:46,737 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-06-06 15:46:46,737 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-06-06 15:46:46,737 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-build-api-0.0.7.jar
+2023-06-06 15:46:46,737 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-cipher-2.0.jar
+2023-06-06 15:46:46,738 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar
+2023-06-06 15:46:46,738 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-component-annotations-2.1.0.jar
+2023-06-06 15:46:46,739 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-interpolation-1.26.jar
+2023-06-06 15:46:46,739 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-sec-dispatcher-2.0.jar
+2023-06-06 15:46:46,740 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-utils-3.3.1.jar
+2023-06-06 15:46:46,740 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-file-3.5.3.jar
+2023-06-06 15:46:46,741 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-provider-api-3.5.3.jar
+2023-06-06 15:46:46,745 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [11])
+2023-06-06 15:46:46,747 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\com.google.guava_31.1.0.jre.jar
+2023-06-06 15:46:46,748 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [921])
+2023-06-06 15:46:46,750 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-06-06 15:46:46,750 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [35])
+2023-06-06 15:46:46,753 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-06-06 15:46:46,753 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221203-1659 [33])
+2023-06-06 15:46:46,755 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\javax.annotation_1.3.5.v20221203-1659.jar
+2023-06-06 15:46:46,755 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.4.0.v20221112-0806 [67])
+2023-06-06 15:46:46,757 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.apache.commons.cli_1.4.0.v20221112-0806.jar
+2023-06-06 15:46:46,757 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [13])
+2023-06-06 15:46:46,758 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-06-06 15:46:46,775 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\AppData\Local\Temp\m2e-archetypeGenerator5929130361042245878":
+2023-06-06 15:46:46,782 [Worker-26: Launching mavenrun-6fd10bb2-1636-46aa-a0b5-d01c1e130fed] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DgroupId=com.curso -DartifactId=pruebas-v4 -Dversion=0.0.1-SNAPSHOT -Dpackage=com.curso.pruebasv4 -DoutputDirectory=C:\Users\ivano\eclipse-workspace -Dstyle.color=always -U archetype:generate
+2023-06-06 15:47:41,225 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\ivano\eclipse-workspace\pruebas-v4\pom.xml
+2023-06-06 15:47:41,680 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.1.0/maven-clean-plugin-3.1.0.jar
+2023-06-06 15:47:41,890 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.1.0/maven-clean-plugin-3.1.0.jar
+2023-06-06 15:47:42,105 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar
+2023-06-06 15:47:42,292 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.jar
+2023-06-06 15:47:42,477 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.0/maven-compiler-plugin-3.8.0.jar
+2023-06-06 15:47:42,526 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.0/maven-compiler-plugin-3.8.0.jar
+2023-06-06 15:47:42,563 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.jar
+2023-06-06 15:47:42,756 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.jar
+2023-06-06 15:47:42,927 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.jar
+2023-06-06 15:47:43,101 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.jar
+2023-06-06 15:47:43,551 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar
+2023-06-06 15:47:43,757 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.2/maven-deploy-plugin-2.8.2.jar
+2023-06-06 15:47:43,920 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.7.1/maven-site-plugin-3.7.1.jar
+2023-06-06 15:47:43,963 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.7.1/maven-site-plugin-3.7.1.jar
+2023-06-06 15:47:44,010 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.0/maven-compiler-plugin-3.8.0.pom
+2023-06-06 15:47:44,044 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.0/maven-compiler-plugin-3.8.0.pom
+2023-06-06 15:47:45,291 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom
+2023-06-06 15:47:45,328 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom
+2023-06-06 15:47:45,370 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.pom
+2023-06-06 15:47:45,403 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.pom
+2023-06-06 15:47:45,415 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.4/plexus-compiler-2.8.4.pom
+2023-06-06 15:47:45,450 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.4/plexus-compiler-2.8.4.pom
+2023-06-06 15:47:45,539 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.pom
+2023-06-06 15:47:45,573 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.pom
+2023-06-06 15:47:45,590 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.pom
+2023-06-06 15:47:45,642 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.pom
+2023-06-06 15:47:45,654 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.4/plexus-compilers-2.8.4.pom
+2023-06-06 15:47:45,693 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.4/plexus-compilers-2.8.4.pom
+2023-06-06 15:47:45,742 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar
+2023-06-06 15:47:45,747 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar
+2023-06-06 15:47:45,747 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar
+2023-06-06 15:47:45,749 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar
+2023-06-06 15:47:45,749 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar
+2023-06-06 15:47:45,811 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar
+2023-06-06 15:47:45,818 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar
+2023-06-06 15:47:45,864 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar
+2023-06-06 15:47:45,935 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar
+2023-06-06 15:47:46,030 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar
+2023-06-06 15:47:47,093 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v4:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v4\pom.xml.
+2023-06-06 15:47:47,178 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.pom
+2023-06-06 15:47:47,215 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.0.2/maven-resources-plugin-3.0.2.pom
+2023-06-06 15:47:47,269 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.pom
+2023-06-06 15:47:47,304 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.1/maven-surefire-plugin-2.22.1.pom
+2023-06-06 15:47:47,316 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom
+2023-06-06 15:47:47,353 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.22.1/surefire-2.22.1.pom
+2023-06-06 15:47:47,385 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.pom
+2023-06-06 15:47:47,417 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.pom
+2023-06-06 15:47:48,601 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom
+2023-06-06 15:47:48,640 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom
+2023-06-06 15:47:48,880 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.pom
+2023-06-06 15:47:48,911 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.pom
+2023-06-06 15:47:48,937 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar
+2023-06-06 15:47:48,939 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+2023-06-06 15:47:48,975 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+2023-06-06 15:47:48,975 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar
+2023-06-06 15:47:49,534 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11-sources.jar
+2023-06-06 15:47:49,607 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.11/junit-4.11-sources.jar
+2023-06-06 15:47:49,611 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.11
+2023-06-06 15:47:49,658 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2023-06-06 15:47:49,968 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v4/src/main/java
+2023-06-06 15:47:49,984 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v4/src/test/java
+2023-06-06 15:47:50,304 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2023-06-06 15:47:50,309 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.3
+2023-06-06 15:47:50,594 [Worker-22: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 9 sec
+2023-06-06 15:47:52,012 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 15:47:52,012 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\main\resources
+2023-06-06 15:47:52,020 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 15:47:52,021 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\test\resources
+2023-06-06 16:01:46,542 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v4:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v4\pom.xml.
+2023-06-06 16:01:47,514 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:01:47,514 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\main\resources
+2023-06-06 16:01:47,518 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:01:47,519 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\test\resources
+2023-06-06 16:01:48,152 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-06 16:01:48,594 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v4:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v4\pom.xml.
+2023-06-06 16:01:48,807 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v4/src/main/java
+2023-06-06 16:01:48,810 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v4/src/test/java
+2023-06-06 16:01:49,100 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-06-06 16:01:49,300 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:01:49,301 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\main\resources
+2023-06-06 16:01:49,340 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:01:49,341 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\test\resources
+2023-06-06 16:01:59,145 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-06 16:01:59,555 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v4:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v4\pom.xml.
+2023-06-06 16:01:59,741 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v4/src/main/java
+2023-06-06 16:01:59,743 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v4/src/test/java
+2023-06-06 16:01:59,876 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-06-06 16:02:00,117 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:02:00,117 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\main\resources
+2023-06-06 16:02:00,123 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:02:00,123 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\test\resources
+2023-06-06 16:02:31,530 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-06-06 16:02:59,677 [Worker-33: Launching pruebas-v4] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v4":
+2023-06-06 16:02:59,677 [Worker-33: Launching pruebas-v4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always package
+2023-06-06 16:05:33,603 [Worker-36: Launching Executing install in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v4":
+2023-06-06 16:05:33,604 [Worker-36: Launching Executing install in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2023-06-06 16:09:29,549 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:09:29,549 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\main\resources
+2023-06-06 16:09:29,553 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:09:29,554 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\test\resources
+2023-06-06 16:15:54,631 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:15:54,633 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\main\resources
+2023-06-06 16:15:54,638 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:15:54,639 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\test\resources
+2023-06-06 16:17:25,390 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:17:25,391 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\main\resources
+2023-06-06 16:17:25,395 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:17:25,395 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\test\resources
+2023-06-06 16:19:28,849 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:19:28,849 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\main\resources
+2023-06-06 16:19:28,854 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:19:28,855 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\test\resources
+2023-06-06 16:19:59,576 [Worker-41: Launching AppTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:19:59,577 [Worker-41: Launching AppTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\main\resources
+2023-06-06 16:19:59,581 [Worker-41: Launching AppTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:19:59,582 [Worker-41: Launching AppTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\test\resources
+2023-06-06 16:24:43,361 [Worker-42: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v4":
+2023-06-06 16:24:43,361 [Worker-42: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-06-06 16:28:31,077 [Worker-34: Creating project "pruebas-v5"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-06 16:28:31,491 [Worker-34: Creating project "pruebas-v5"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-06 16:28:31,491 [Worker-34: Creating project "pruebas-v5"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-06 16:28:31,492 [Worker-34: Creating project "pruebas-v5"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-06 16:28:31,494 [Worker-34: Creating project "pruebas-v5"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-06 16:28:31,828 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-06 16:28:31,839 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:28:31,844 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-06 16:28:31,845 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:30:02,096 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-06 16:30:02,222 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-06 16:30:02,314 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-06 16:30:02,315 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-06 16:30:02,316 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-06 16:30:02,317 [Worker-45: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-06 16:30:02,427 [Worker-45: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-06-06 16:30:02,595 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-06 16:30:02,597 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:30:02,602 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-06 16:30:02,604 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:30:10,515 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-06 16:30:10,587 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:30:10,589 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:30:10,592 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:30:10,593 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:30:15,808 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-06 16:30:15,911 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-06 16:30:15,985 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-06 16:30:15,986 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-06 16:30:16,010 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-06 16:30:16,010 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-06 16:30:16,240 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-06-06 16:30:16,407 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:30:16,408 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:30:16,410 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:30:16,411 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:31:59,040 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:31:59,043 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:31:59,047 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:31:59,047 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:35:57,622 [Worker-49: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-06 16:35:57,899 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:35:57,900 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:35:57,904 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:35:57,904 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:35:58,985 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3-sources.jar
+2023-06-06 16:35:59,320 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3-sources.jar
+2023-06-06 16:35:59,325 [Worker-49: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-engine:5.9.3
+2023-06-06 16:35:59,375 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3-sources.jar
+2023-06-06 16:35:59,458 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3-sources.jar
+2023-06-06 16:35:59,464 [Worker-49: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-engine:1.9.3
+2023-06-06 16:35:59,506 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar
+2023-06-06 16:35:59,656 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar
+2023-06-06 16:35:59,661 [Worker-49: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.opentest4j:opentest4j:1.2.0
+2023-06-06 16:35:59,700 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3-sources.jar
+2023-06-06 16:35:59,758 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3-sources.jar
+2023-06-06 16:35:59,764 [Worker-49: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-commons:1.9.3
+2023-06-06 16:35:59,800 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3-sources.jar
+2023-06-06 16:35:59,876 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3-sources.jar
+2023-06-06 16:35:59,880 [Worker-49: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-api:5.9.3
+2023-06-06 16:35:59,918 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2-sources.jar
+2023-06-06 16:35:59,984 [Worker-49: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2-sources.jar
+2023-06-06 16:35:59,990 [Worker-49: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apiguardian:apiguardian-api:1.1.2
+2023-06-06 16:36:05,208 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-06 16:36:05,263 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-06 16:36:05,624 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-06 16:36:05,625 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-06 16:36:05,625 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-06 16:36:05,626 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-06 16:36:05,775 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-06-06 16:36:05,914 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:36:05,914 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:36:05,919 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:36:05,920 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:36:38,677 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:36:38,677 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:36:38,680 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:36:38,681 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:38:11,689 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:38:11,690 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:38:11,692 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:38:11,693 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:38:49,715 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:38:49,715 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:38:49,717 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:38:49,717 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:39:00,602 [Worker-52: Launching AppTest (1)] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar
+2023-06-06 16:39:00,713 [Worker-52: Launching AppTest (1)] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar
+2023-06-06 16:41:23,993 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:41:23,995 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:41:23,998 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:41:23,999 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:43:26,257 [Worker-52: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v5":
+2023-06-06 16:43:26,258 [Worker-52: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-06-06 16:44:54,456 [Worker-54: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v5":
+2023-06-06 16:44:54,456 [Worker-54: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-06-06 16:47:32,657 [Worker-58: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-06 16:47:32,729 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:47:32,730 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:47:32,732 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:47:32,733 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:47:47,215 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-06 16:47:47,285 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-06 16:47:47,379 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-06 16:47:47,379 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-06 16:47:47,380 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-06 16:47:47,380 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-06 16:47:47,502 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-06-06 16:47:47,681 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:47:47,681 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:47:47,684 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 16:47:47,685 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 16:47:56,388 [Worker-57: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v5":
+2023-06-06 16:47:56,389 [Worker-57: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-06-06 16:49:07,993 [Worker-54: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v5":
+2023-06-06 16:49:07,994 [Worker-54: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-06-06 17:15:38,616 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:15:38,617 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:15:38,620 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:15:38,622 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:15:54,772 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:15:54,774 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:15:54,777 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:15:54,778 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:16:25,291 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:16:25,292 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:16:25,296 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:16:25,297 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:17:24,364 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:17:24,365 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:17:24,369 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:17:24,370 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:17:38,115 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:17:38,116 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:17:38,119 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:17:38,120 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:18:45,897 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:18:45,898 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:18:45,901 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:18:45,902 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:26:02,459 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:26:02,460 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:26:02,463 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:26:02,465 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:26:41,124 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:26:41,126 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:26:41,130 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:26:41,130 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:26:42,360 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:26:42,361 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:26:42,366 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:26:42,367 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:26:43,714 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:26:43,715 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:26:43,719 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:26:43,720 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:43:34,815 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:43:34,816 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:43:34,819 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:43:34,819 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:47:33,644 [Worker-73: Launching SuministradorDeDiccionariosTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:47:33,645 [Worker-73: Launching SuministradorDeDiccionariosTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:47:33,652 [Worker-73: Launching SuministradorDeDiccionariosTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:47:33,654 [Worker-73: Launching SuministradorDeDiccionariosTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:48:48,003 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:48:48,004 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:48:48,008 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:48:48,009 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:59:18,584 [Worker-79: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-06 17:59:18,673 [Worker-79: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.pom
+2023-06-06 17:59:18,717 [Worker-79: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.pom
+2023-06-06 17:59:18,732 [Worker-79: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar
+2023-06-06 17:59:18,828 [Worker-79: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar
+2023-06-06 17:59:18,919 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:59:18,920 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:59:18,923 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:59:18,924 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:59:19,992 [Worker-83: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3-sources.jar
+2023-06-06 17:59:20,054 [Worker-83: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3-sources.jar
+2023-06-06 17:59:20,063 [Worker-83: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.jupiter:junit-jupiter-params:5.9.3
+2023-06-06 17:59:29,258 [Worker-83: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-06 17:59:29,383 [Worker-83: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-06 17:59:29,798 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-06 17:59:29,798 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-06 17:59:29,799 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-06 17:59:29,799 [Worker-83: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-06 17:59:29,935 [Worker-83: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-06-06 17:59:30,174 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:59:30,174 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 17:59:30,178 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 17:59:30,179 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:08:22,901 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:08:22,902 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:08:22,904 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:08:22,906 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-06 18:09:53,874 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:09:53,874 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:09:53,878 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:09:53,879 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-06 18:11:13,802 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:11:13,803 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:11:13,805 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:11:13,806 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-06 18:18:35,503 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:18:35,504 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:18:35,507 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:18:35,508 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-06 18:23:14,136 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:23:14,137 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:23:14,139 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:23:14,140 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-06 18:25:36,956 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-06 18:26:58,383 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:26:58,391 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:26:58,400 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:26:58,402 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-06 18:28:24,113 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:28:24,116 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:28:24,120 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:28:24,122 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-06 18:28:32,956 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:28:32,957 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:28:32,963 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:28:32,964 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-06 18:29:53,916 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:29:53,917 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:29:53,922 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:29:53,924 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-06 18:30:48,289 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:30:48,290 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:30:48,293 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:30:48,294 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-06 18:31:32,955 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:31:32,955 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:31:32,958 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:31:32,959 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-06 18:34:54,938 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-06 18:34:57,319 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:34:57,322 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:34:57,329 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:34:57,329 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:34:58,453 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.12.1/cucumber-java-7.12.1-sources.jar
+2023-06-06 18:34:59,078 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-java/7.12.1/cucumber-java-7.12.1-sources.jar
+2023-06-06 18:34:59,089 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-java:7.12.1
+2023-06-06 18:34:59,139 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-core/7.12.1/cucumber-core-7.12.1-sources.jar
+2023-06-06 18:34:59,556 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-core/7.12.1/cucumber-core-7.12.1-sources.jar
+2023-06-06 18:34:59,564 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-core:7.12.1
+2023-06-06 18:34:59,616 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin/7.12.1/cucumber-gherkin-7.12.1-sources.jar
+2023-06-06 18:34:59,873 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin/7.12.1/cucumber-gherkin-7.12.1-sources.jar
+2023-06-06 18:34:59,878 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-gherkin:7.12.1
+2023-06-06 18:34:59,922 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin-messages/7.12.1/cucumber-gherkin-messages-7.12.1-sources.jar
+2023-06-06 18:35:00,556 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-gherkin-messages/7.12.1/cucumber-gherkin-messages-7.12.1-sources.jar
+2023-06-06 18:35:00,563 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-gherkin-messages:7.12.1
+2023-06-06 18:35:00,616 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/gherkin/26.2.0/gherkin-26.2.0-sources.jar
+2023-06-06 18:35:01,357 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/gherkin/26.2.0/gherkin-26.2.0-sources.jar
+2023-06-06 18:35:01,364 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:gherkin:26.2.0
+2023-06-06 18:35:01,415 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/messages/22.0.0/messages-22.0.0-sources.jar
+2023-06-06 18:35:01,524 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/messages/22.0.0/messages-22.0.0-sources.jar
+2023-06-06 18:35:01,530 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:messages:22.0.0
+2023-06-06 18:35:01,582 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1-sources.jar
+2023-06-06 18:35:01,894 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-06 18:35:01,924 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1-sources.jar
+2023-06-06 18:35:01,936 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:tag-expressions:5.0.1
+2023-06-06 18:35:02,257 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2-sources.jar
+2023-06-06 18:35:02,976 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-06 18:35:03,301 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2-sources.jar
+2023-06-06 18:35:03,306 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-expressions:16.1.2
+2023-06-06 18:35:03,352 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/datatable/7.12.1/datatable-7.12.1-sources.jar
+2023-06-06 18:35:03,887 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/datatable/7.12.1/datatable-7.12.1-sources.jar
+2023-06-06 18:35:03,909 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:datatable:7.12.1
+2023-06-06 18:35:03,963 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-plugin/7.12.1/cucumber-plugin-7.12.1-sources.jar
+2023-06-06 18:35:03,982 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-06 18:35:03,983 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-06 18:35:03,985 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-06 18:35:03,986 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-06 18:35:04,508 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2023-06-06 18:35:05,036 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-plugin/7.12.1/cucumber-plugin-7.12.1-sources.jar
+2023-06-06 18:35:05,042 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-plugin:7.12.1
+2023-06-06 18:35:05,092 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/docstring/7.12.1/docstring-7.12.1-sources.jar
+2023-06-06 18:35:05,242 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:35:05,243 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:35:05,249 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:35:05,250 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-06 18:35:05,471 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/docstring/7.12.1/docstring-7.12.1-sources.jar
+2023-06-06 18:35:05,477 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:docstring:7.12.1
+2023-06-06 18:35:05,524 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/html-formatter/20.3.1/html-formatter-20.3.1-sources.jar
+2023-06-06 18:35:05,693 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/html-formatter/20.3.1/html-formatter-20.3.1-sources.jar
+2023-06-06 18:35:05,700 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:html-formatter:20.3.1
+2023-06-06 18:35:05,751 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0-sources.jar
+2023-06-06 18:35:06,185 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0-sources.jar
+2023-06-06 18:35:06,193 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:junit-xml-formatter:0.2.0
+2023-06-06 18:35:06,239 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0-sources.jar
+2023-06-06 18:35:06,365 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0-sources.jar
+2023-06-06 18:35:06,370 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:ci-environment:9.2.0
+2023-06-06 18:38:59,541 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:38:59,544 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:38:59,550 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:38:59,557 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-06 18:40:29,890 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:40:29,891 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:40:29,897 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:40:29,899 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-06 18:58:09,224 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:58:09,224 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-06 18:58:09,228 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-06 18:58:09,230 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-07 15:05:43,777 [Worker-19: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-07 15:07:49,871 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606 [607])
+2023-06-07 15:07:49,894 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606
+2023-06-07 15:07:49,896 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\aether-connector-okhttp-0.17.8.jar
+2023-06-07 15:07:49,897 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\commons-lang3-3.8.1.jar
+2023-06-07 15:07:49,897 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\guice-4.2.2-no_aop.jar
+2023-06-07 15:07:49,897 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\jansi-2.4.0.jar
+2023-06-07 15:07:49,898 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-artifact-3.8.7.jar
+2023-06-07 15:07:49,898 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-builder-support-3.8.7.jar
+2023-06-07 15:07:49,898 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-compat-3.8.7.jar
+2023-06-07 15:07:49,898 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-core-3.8.7.jar
+2023-06-07 15:07:49,899 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-embedder-3.8.7.jar
+2023-06-07 15:07:49,899 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-3.8.7.jar
+2023-06-07 15:07:49,899 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-builder-3.8.7.jar
+2023-06-07 15:07:49,899 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-plugin-api-3.8.7.jar
+2023-06-07 15:07:49,900 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-repository-metadata-3.8.7.jar
+2023-06-07 15:07:49,900 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-api-1.6.3.jar
+2023-06-07 15:07:49,900 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-06-07 15:07:49,900 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-impl-1.6.3.jar
+2023-06-07 15:07:49,901 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-provider-3.8.7.jar
+2023-06-07 15:07:49,901 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-spi-1.6.3.jar
+2023-06-07 15:07:49,901 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-06-07 15:07:49,902 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-util-1.6.3.jar
+2023-06-07 15:07:49,902 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-3.8.7.jar
+2023-06-07 15:07:49,902 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-builder-3.8.7.jar
+2023-06-07 15:07:49,902 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-shared-utils-3.3.4.jar
+2023-06-07 15:07:49,902 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okhttp-3.14.1.jar
+2023-06-07 15:07:49,903 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okio-1.17.3.jar
+2023-06-07 15:07:49,903 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-06-07 15:07:49,903 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-06-07 15:07:49,903 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-build-api-0.0.7.jar
+2023-06-07 15:07:49,904 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-cipher-2.0.jar
+2023-06-07 15:07:49,904 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar
+2023-06-07 15:07:49,904 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-component-annotations-2.1.0.jar
+2023-06-07 15:07:49,904 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-interpolation-1.26.jar
+2023-06-07 15:07:49,904 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-sec-dispatcher-2.0.jar
+2023-06-07 15:07:49,905 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-utils-3.3.1.jar
+2023-06-07 15:07:49,905 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-file-3.5.3.jar
+2023-06-07 15:07:49,905 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-provider-api-3.5.3.jar
+2023-06-07 15:07:49,907 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [11])
+2023-06-07 15:07:49,909 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\com.google.guava_31.1.0.jre.jar
+2023-06-07 15:07:49,909 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [921])
+2023-06-07 15:07:49,909 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-06-07 15:07:49,910 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [35])
+2023-06-07 15:07:49,911 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-06-07 15:07:49,911 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221203-1659 [33])
+2023-06-07 15:07:49,912 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\javax.annotation_1.3.5.v20221203-1659.jar
+2023-06-07 15:07:49,913 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.4.0.v20221112-0806 [67])
+2023-06-07 15:07:49,939 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.apache.commons.cli_1.4.0.v20221112-0806.jar
+2023-06-07 15:07:49,940 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [13])
+2023-06-07 15:07:49,941 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-06-07 15:07:49,945 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v4":
+2023-06-07 15:07:49,951 [Worker-24: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-06-07 15:18:09,319 [Worker-25: Launching SuministradorDeDiccionariosTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:18:09,333 [Worker-25: Launching SuministradorDeDiccionariosTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:18:09,341 [Worker-25: Launching SuministradorDeDiccionariosTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:18:09,343 [Worker-25: Launching SuministradorDeDiccionariosTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-07 15:18:27,277 [Worker-30: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v5":
+2023-06-07 15:18:27,278 [Worker-30: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-06-07 15:30:00,596 [Worker-29: Launching suministrador.diccionarios.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:30:00,599 [Worker-29: Launching suministrador.diccionarios.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:30:00,606 [Worker-29: Launching suministrador.diccionarios.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:30:00,611 [Worker-29: Launching suministrador.diccionarios.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-07 15:36:01,393 [Worker-19: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v5":
+2023-06-07 15:36:01,394 [Worker-19: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-06-07 15:45:46,426 [Worker-61: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-07 15:45:47,232 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:45:47,235 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:45:47,244 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:45:47,244 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:45:48,400 [Worker-62: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit-platform-engine/7.12.1/cucumber-junit-platform-engine-7.12.1-sources.jar
+2023-06-07 15:45:48,708 [Worker-62: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/cucumber-junit-platform-engine/7.12.1/cucumber-junit-platform-engine-7.12.1-sources.jar
+2023-06-07 15:45:48,715 [Worker-62: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.cucumber:cucumber-junit-platform-engine:7.12.1
+2023-06-07 15:45:54,702 [Worker-61: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-07 15:45:55,248 [Worker-61: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-07 15:45:56,164 [Worker-61: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-07 15:45:56,167 [Worker-61: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-07 15:45:56,172 [Worker-61: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-07 15:45:56,173 [Worker-61: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-07 15:45:56,494 [Worker-61: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2023-06-07 15:45:56,986 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:45:56,987 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:45:56,995 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:45:56,996 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-07 15:47:45,375 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-07 15:47:45,871 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-07 15:47:46,401 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-07 15:47:46,401 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-07 15:47:46,403 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-07 15:47:46,403 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-07 15:47:46,724 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-06-07 15:47:47,332 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:47:47,334 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:47:47,339 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:47:47,340 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-07 15:48:33,975 [Worker-65: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-07 15:48:34,383 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:48:34,384 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:48:34,388 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:48:34,389 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:48:38,745 [Worker-64: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-07 15:48:39,203 [Worker-64: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-07 15:48:39,702 [Worker-64: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-07 15:48:39,703 [Worker-64: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-07 15:48:39,704 [Worker-64: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-07 15:48:39,704 [Worker-64: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-07 15:48:40,021 [Worker-64: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-06-07 15:48:40,272 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:48:40,273 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:48:40,278 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:48:40,279 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-07 15:49:31,664 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:49:31,667 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:49:31,671 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:49:31,672 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-07 15:49:48,215 [Worker-58: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v5":
+2023-06-07 15:49:48,215 [Worker-58: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-06-07 15:50:26,821 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-06-07 15:50:32,918 [Worker-58: Launching pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v5":
+2023-06-07 15:50:32,919 [Worker-58: Launching pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test-compile
+2023-06-07 15:51:21,086 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:51:21,087 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:51:21,093 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:51:21,097 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-07 15:52:20,877 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:52:20,884 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\main\resources
+2023-06-07 15:52:20,893 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:52:20,893 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ivano\eclipse-workspace\pruebas-v4\src\test\resources
+2023-06-07 15:52:21,733 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:52:21,744 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:52:21,752 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:52:21,754 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-07 15:52:30,311 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-06-07 15:54:21,347 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-07 15:54:22,171 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-07 15:54:22,880 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-07 15:54:22,881 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-07 15:54:22,882 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-07 15:54:22,883 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-07 15:54:23,358 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2023-06-07 15:54:30,511 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-07 15:54:31,087 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-07 15:54:32,692 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-07 15:54:32,693 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-07 15:54:32,695 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-07 15:54:32,695 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-07 15:54:33,093 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 0,00 sec 
+2023-06-07 15:54:33,888 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/1.9.3/junit-platform-suite-engine-1.9.3-sources.jar
+2023-06-07 15:54:34,105 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-engine/1.9.3/junit-platform-suite-engine-1.9.3-sources.jar
+2023-06-07 15:54:34,113 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-suite-engine:1.9.3
+2023-06-07 15:54:34,159 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/1.9.3/junit-platform-suite-api-1.9.3-sources.jar
+2023-06-07 15:54:34,484 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-api/1.9.3/junit-platform-suite-api-1.9.3-sources.jar
+2023-06-07 15:54:34,490 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-suite-api:1.9.3
+2023-06-07 15:54:34,531 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-commons/1.9.3/junit-platform-suite-commons-1.9.3-sources.jar
+2023-06-07 15:54:34,644 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite-commons/1.9.3/junit-platform-suite-commons-1.9.3-sources.jar
+2023-06-07 15:54:34,649 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-suite-commons:1.9.3
+2023-06-07 15:54:34,702 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3-sources.jar
+2023-06-07 15:54:34,754 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3-sources.jar
+2023-06-07 15:54:34,767 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-launcher:1.9.3
+2023-06-07 15:56:19,484 [Worker-12: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:56:19,484 [Worker-12: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:56:19,489 [Worker-12: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:56:19,490 [Worker-12: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-07 15:58:48,642 [Worker-27: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:58:48,645 [Worker-27: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 15:58:48,650 [Worker-27: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 15:58:48,658 [Worker-27: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-07 16:00:38,232 [Worker-27: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 16:00:38,233 [Worker-27: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 16:00:38,239 [Worker-27: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 16:00:38,241 [Worker-27: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-06-07 16:02:43,680 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606 [607])
+2023-06-07 16:02:43,686 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606
+2023-06-07 16:02:43,687 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\aether-connector-okhttp-0.17.8.jar
+2023-06-07 16:02:43,687 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\commons-lang3-3.8.1.jar
+2023-06-07 16:02:43,688 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\guice-4.2.2-no_aop.jar
+2023-06-07 16:02:43,688 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\jansi-2.4.0.jar
+2023-06-07 16:02:43,689 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-artifact-3.8.7.jar
+2023-06-07 16:02:43,689 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-builder-support-3.8.7.jar
+2023-06-07 16:02:43,689 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-compat-3.8.7.jar
+2023-06-07 16:02:43,690 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-core-3.8.7.jar
+2023-06-07 16:02:43,690 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-embedder-3.8.7.jar
+2023-06-07 16:02:43,691 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-3.8.7.jar
+2023-06-07 16:02:43,691 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-model-builder-3.8.7.jar
+2023-06-07 16:02:43,691 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-plugin-api-3.8.7.jar
+2023-06-07 16:02:43,692 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-repository-metadata-3.8.7.jar
+2023-06-07 16:02:43,692 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-api-1.6.3.jar
+2023-06-07 16:02:43,692 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-06-07 16:02:43,693 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-impl-1.6.3.jar
+2023-06-07 16:02:43,693 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-provider-3.8.7.jar
+2023-06-07 16:02:43,693 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-spi-1.6.3.jar
+2023-06-07 16:02:43,695 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-06-07 16:02:43,695 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-resolver-util-1.6.3.jar
+2023-06-07 16:02:43,695 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-3.8.7.jar
+2023-06-07 16:02:43,696 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-settings-builder-3.8.7.jar
+2023-06-07 16:02:43,696 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\maven-shared-utils-3.3.4.jar
+2023-06-07 16:02:43,696 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okhttp-3.14.1.jar
+2023-06-07 16:02:43,696 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\okio-1.17.3.jar
+2023-06-07 16:02:43,697 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-06-07 16:02:43,697 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-06-07 16:02:43,697 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-build-api-0.0.7.jar
+2023-06-07 16:02:43,698 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-cipher-2.0.jar
+2023-06-07 16:02:43,698 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar
+2023-06-07 16:02:43,698 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-component-annotations-2.1.0.jar
+2023-06-07 16:02:43,699 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-interpolation-1.26.jar
+2023-06-07 16:02:43,699 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-sec-dispatcher-2.0.jar
+2023-06-07 16:02:43,699 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-utils-3.3.1.jar
+2023-06-07 16:02:43,699 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-file-3.5.3.jar
+2023-06-07 16:02:43,700 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\wagon-provider-api-3.5.3.jar
+2023-06-07 16:02:43,701 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_31.1.0.jre [11])
+2023-06-07 16:02:43,703 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\com.google.guava_31.1.0.jre.jar
+2023-06-07 16:02:43,703 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [921])
+2023-06-07 16:02:43,705 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-06-07 16:02:43,705 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [35])
+2023-06-07 16:02:43,708 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-06-07 16:02:43,708 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221203-1659 [33])
+2023-06-07 16:02:43,710 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\javax.annotation_1.3.5.v20221203-1659.jar
+2023-06-07 16:02:43,710 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.4.0.v20221112-0806 [67])
+2023-06-07 16:02:43,711 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\org.apache.commons.cli_1.4.0.v20221112-0806.jar
+2023-06-07 16:02:43,712 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.1 [13])
+2023-06-07 16:02:43,713 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\ivano\.p2\pool\plugins\com.google.guava.failureaccess_1.0.1.jar
+2023-06-07 16:02:43,717 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v5":
+2023-06-07 16:02:43,719 [Worker-28: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-06-07 16:04:07,955 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-07 16:04:08,489 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-07 16:04:08,909 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-07 16:04:08,909 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-07 16:04:08,911 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-07 16:04:08,911 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-07 16:04:09,200 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-06-07 16:04:58,296 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-07 16:04:58,900 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso:pruebas-v5:0.0.1-SNAPSHOT @ C:\Users\ivano\eclipse-workspace\pruebas-v5\pom.xml.
+2023-06-07 16:04:59,647 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/main/java
+2023-06-07 16:04:59,647 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/main/resources
+2023-06-07 16:04:59,648 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pruebas-v5/src/test/java
+2023-06-07 16:04:59,648 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pruebas-v5/src/test/resources
+2023-06-07 16:04:59,949 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2023-06-07 16:05:00,629 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite/1.9.3/junit-platform-suite-1.9.3-sources.jar
+2023-06-07 16:05:00,724 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-suite/1.9.3/junit-platform-suite-1.9.3-sources.jar
+2023-06-07 16:05:00,732 [Worker-31: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.junit.platform:junit-platform-suite:1.9.3
+2023-06-07 16:05:09,617 [Worker-30: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\ivano\eclipse-workspace\pruebas-v5":
+2023-06-07 16:05:09,618 [Worker-30: Launching Executing test in C__Users_ivano_eclipse-workspace_pruebas-v5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-06-07 16:05:37,876 [Worker-30: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-07 16:05:37,877 [Worker-30: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-07 16:05:37,881 [Worker-30: Launching PasosCucumber] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

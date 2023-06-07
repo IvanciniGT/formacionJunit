@@ -1,0 +1,13 @@
+package com.curso.pruebasv4;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class AppTest {
+    @Test
+    public void probarLaFuncionSumar() {
+    	int resultadoObtenido = App.sumar(10, 20);
+    	int resultadoEsperado = 30;
+    	Assert.assertEquals( resultadoEsperado, resultadoObtenido);
+    }
+}

@@ -1,0 +1,27 @@
+#language=ES
+Característica: SuministradorDeDiccionarios
+    Escenario: Preguntar por un idioma que se de antemano que existe
+            Dado un suministrador que tiene idioma "ES"
+            Cuando le pregunto si tiene un diccionario de idioma "ES"
+                boolean respuesta = suminsitrador.tienesDiccionarioDe("ES")
+            Entonces me tiene que contestar que si
+                respuesta == true
+    Escenario: Preguntar por un idioma que se de antemano que no existe
+            Dado un suministrador que no tiene idioma "ELFICO"
+            Cuando le pregunto si tiene un diccionario de idioma "ELFICO"
+                boolean respuesta = suminsitrador.tienesDiccionarioDe("ELFICO")
+            Entonces me tiene que contestar que no
+                respuesta == false
+    Escenario: Solicitar un diccionario de un idioma que se de antemano se que no existe
+            Dado un suministrador que no tiene idioma "ELFICO"
+            Cuando le pido un diccionario de idioma "ELFICO"
+                Optional<Diccionario> diccionario = suminsitrador.getDiccionario("ELFICO")
+            Entonces no me tiene que devolver NADA
+                diccionario.isEmpty()
+    Escenario: Solicitar un diccionario de un idioma que se de antemano se que SI existe
+            Dado un suministrador que tiene idioma "ES"
+            Cuando le pido un diccionario de idioma "ES"
+                Diccionario diccionario = suminsitrador.getDiccionario("ES")
+            Entonces me tiene que devolver el diccionario de idioma "ES"
+                diccionario.isPresent()
+                diccionario.getIdioma().equals("ES")

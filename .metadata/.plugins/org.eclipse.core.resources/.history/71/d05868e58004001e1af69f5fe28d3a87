@@ -1,0 +1,19 @@
+package com.curso;
+import org.junit.jupiter.api.Test;
+
+public class SuministradorDeDiccionariosTest {
+
+
+    @Test
+    // Preguntar por un diccionario existente al suministrador
+
+    @Test
+    // Preguntar por un diccionario no existente al suministrador
+
+    @Test
+    // Recuperar un diccionario existente 
+
+    @Test
+    // Solicitar un diccionario no existente
+    
+}

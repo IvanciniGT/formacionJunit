@@ -1,0 +1,49 @@
+import io.cucumber.java.en.Given;
+import io.cucumber.java.es.Cuando;
+import io.cucumber.java.es.Dado;
+import io.cucumber.java.es.Entonces;
+
+public class PasosCucumber {
+
+	@Given("un suministrador que tiene idioma {string}")
+	public void un_suministrador_que_tiene_idioma(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	
+	@Cuando("le pregunto si tiene un diccionario de idioma {string}")
+	public void le_pregunto_si_tiene_un_diccionario_de_idioma(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	
+	@Entonces("me tiene que contestar que {string}")
+	public void me_tiene_que_contestar_que(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	
+	@Dado("un suministrador que no tiene idioma {string}")
+	public void un_suministrador_que_no_tiene_idioma(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	
+	@Cuando("le pido un diccionario de idioma {string}")
+	public void le_pido_un_diccionario_de_idioma(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	
+	@Entonces("no me tiene que devolver NADA")
+	public void no_me_tiene_que_devolver_nada() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	
+	@Entonces("me tiene que devolver el diccionario de idioma {string}")
+	public void me_tiene_que_devolver_el_diccionario_de_idioma(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+}
